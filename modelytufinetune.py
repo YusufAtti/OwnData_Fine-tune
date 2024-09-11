@@ -52,8 +52,6 @@ data_collator = DataCollatorForLanguageModeling(
 
 
 #BU KISIMLARDAKİ RAKAMSAL DEĞİŞİKLİK DOĞRULUK ORANINI NASIL ETKİLER?
-#BUNU ARAŞTIR-SORGULA VE DENE!!!
-#AYRICA BU KISMI DETAYLICA ARAŞTIR, HANGİ PARAMETRE NE İŞE YARIYOR? ÖĞREN
 training_args = TrainingArguments(
 
     #Bu satır, modelinizin çıktı dizinini (output directory) './results' klasörü olarak ayarlar. Çıktı dizini, modelinizin eğitim süreci boyunca ürettiği dosyaların (checkpoint dosyaları, kayıt dosyaları, modeller vb.) saklandığı yerdir.
